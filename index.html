@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="en">
    <head>
    
@@ -41,7 +41,18 @@
    <body>
    
    
-   
+   <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"></div>
+
+<!-- Load the Twitch embed script -->
+<script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+<!-- Create a Twitch.Player object. This will render within the placeholder div -->
+<script type="text/javascript">
+  new Twitch.Player("twitch-embed", {
+    channel: "guanweiboy"
+  });
+</script>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/paBNK7Q5k2g?si=-feW-PfIOpmhPH3Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
    
    
@@ -108,7 +119,7 @@
          </div>
       </nav>
       <!-- ============================================================
-         FIX 1 ï¿?SEARCH OVERLAY POPUP
+         FIX 1 åš™?SEARCH OVERLAY POPUP
          ============================================================ -->
       <div id="searchOv">
          <button class="sovclose" id="searchClose"><i class="fas fa-times"></i></button>
@@ -328,7 +339,7 @@
          </div>
       </section>
       <!-- ============================================================
-         MENU ï¿?FIX 3 (filter works) + FIX 4 (plus opens popup)
+         MENU åš™?FIX 3 (filter works) + FIX 4 (plus opens popup)
          ============================================================ -->
       <section id="menu">
          <div class="container">
@@ -337,7 +348,7 @@
                <h2 class="stitle">Our Delicious <span>Menu</span></h2>
                <div class="sline"></div>
             </div>
-            <!-- FIX 3 ï¿?filter buttons -->
+            <!-- FIX 3 åš™?filter buttons -->
             <div class="text-center mb-4" data-aos="fade-up">
                <button class="filtbtn active" data-f="all">All</button>
                <button class="filtbtn" data-f="burgers">Burgers</button>
@@ -447,7 +458,7 @@
                      data-price="$10.99" data-old=""
                      data-rating="4.5" data-reviews="74"
                      data-cal="520" data-time="10"
-                     data-desc="Grilled chicken strips, sautï¿½ed bell peppers and onions, sour cream, fresh guacamole and salsa wrapped in a warm flour tortilla with melted cheddar."
+                     data-desc="Grilled chicken strips, sautåš™ç®´d bell peppers and onions, sour cream, fresh guacamole and salsa wrapped in a warm flour tortilla with melted cheddar."
                      data-tags="Grilled,Fresh,Mexican">
                      <div class="mimg">
                         <img src="img/menu/4.jpg" alt="Wrap"/>
@@ -535,7 +546,7 @@
 	  
 	  
       <!-- ============================================================
-         FIX 4 ï¿?MENU DETAIL POPUP MODAL
+         FIX 4 åš™?MENU DETAIL POPUP MODAL
          ============================================================ -->
       <div id="menuPop">
          <div class="mpbox">
@@ -588,7 +599,7 @@
 	  
 	  
       <!-- ============================================================
-         GALLERY ï¿?FIX 7 (click opens detail popup)
+         GALLERY åš™?FIX 7 (click opens detail popup)
          ============================================================ -->
       <section id="gallery">
          <div class="container">
@@ -641,7 +652,7 @@
             </div>
          </div>
       </section>
-      <!-- FIX 7 ï¿?GALLERY POPUP -->
+      <!-- FIX 7 åš™?GALLERY POPUP -->
       <div id="galPop">
          <div class="gpbox">
             <button class="gpclose" id="gpClose"><i class="fas fa-times"></i></button>
@@ -659,7 +670,7 @@
 	  
 	  
       <!-- ============================================================
-         HISTORY ï¿?FIX 8 (alternating left/right text)
+         HISTORY åš™?FIX 8 (alternating left/right text)
          ============================================================ -->
       <section id="history">
          <div class="container">
@@ -1101,7 +1112,7 @@
       </section>
 	  
       <!-- ============================================================
-         FIX 6 ï¿?CONTACT FORM
+         FIX 6 åš™?CONTACT FORM
          ============================================================ -->
       <section id="contact-section">
          <div class="container">
